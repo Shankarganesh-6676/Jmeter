@@ -172,6 +172,7 @@ System.gc()
             </value>
           </objProp>
           <stringProp name="filename">$WORKSPACE/JMeterReports/SummaryReport.csv</stringProp>
+          <boolProp name="useGroupName">true</boolProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

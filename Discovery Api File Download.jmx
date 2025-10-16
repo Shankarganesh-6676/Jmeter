@@ -171,7 +171,7 @@ System.gc()
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">https://uat-jenkinsjmeter.ipospays.tech/job/JmeterPipelineLoadTest/46/execution/node/3/ws/JMeterReports/Summary.Reportcsv</stringProp>
+          <stringProp name="filename">$WORKSPACE/JMeterReports/SummaryReport.csv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

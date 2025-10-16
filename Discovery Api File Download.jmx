@@ -127,7 +127,7 @@
             <boolProp name="FileSaver.ignoreTC">false</boolProp>
           </ResultSaver>
           <hashTree/>
-          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor">
+          <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="JSR223 PostProcessor" enabled="false">
             <stringProp name="cacheKey">true</stringProp>
             <stringProp name="filename"></stringProp>
             <stringProp name="parameters"></stringProp>
@@ -138,7 +138,7 @@ System.gc()
           </JSR223PostProcessor>
           <hashTree/>
         </hashTree>
-        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="false">
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report">
           <boolProp name="ResultCollector.error_logging">false</boolProp>
           <objProp>
             <name>saveConfig</name>
@@ -171,7 +171,7 @@ System.gc()
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename"></stringProp>
+          <stringProp name="filename">https://uat-jenkinsjmeter.ipospays.tech/job/JmeterPipelineLoadTest/46/execution/node/3/ws/JMeterReports/Summary.Reportcsv</stringProp>
         </ResultCollector>
         <hashTree/>
       </hashTree>

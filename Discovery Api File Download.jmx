@@ -171,7 +171,7 @@ System.gc()
               <connectTime>true</connectTime>
             </value>
           </objProp>
-          <stringProp name="filename">$WORKSPACE/JMeterReports/SummaryReport.csv</stringProp>
+          <stringProp name="filename">$WORKSPACE/JMeterReports/SummaryReport_${__time(YMMdd_HHmmss)}_${__Random(1000,9999)}.csv</stringProp>
           <boolProp name="useGroupName">true</boolProp>
         </ResultCollector>
         <hashTree/>
